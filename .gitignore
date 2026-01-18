@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Data
+/data/raw/
+/data/interim/
+/data/processed/
+/mndot_outputs/
+
+# Reports / figs
+/reports/
+/assets/figures/
+
+# OS
+.DS_Store
+Thumbs.db
