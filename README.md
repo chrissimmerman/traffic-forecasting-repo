@@ -55,7 +55,7 @@ You can download the raw ATR hourly volume data directly from MnDOT here:
 
 https://www.dot.state.mn.us/traffic/data/reports-hrvol-atr.html
 
-From that page, download the ATR hourly volume report(s) you need, then use **Step 0** (optional) to convert the hourly files into the station-day totals used by this repo.
+From that page, download the ATR hourly volume report(s) you need, then use **Step 0** to convert the hourly files into the station-day totals used by this repo.
 
 ### Inputs
 
@@ -87,7 +87,7 @@ By default, the pipeline writes:
 
 Run the steps below in order. **Do not skip steps** unless you already have the exact artifacts they produce.
 
-### 0) (Optional) Build station-day totals from hourly ATR/WIM CSVs
+### 0) Build station-day totals from hourly ATR/WIM CSVs
 
 ```bash
 python scripts/process_mndot_atr_wim.py --input path/to/data.zip --outdir mndot_outputs
